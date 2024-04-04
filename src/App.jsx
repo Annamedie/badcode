@@ -32,7 +32,7 @@ function App() {
                           backgroundColor: ärdengrön ? "green" : "white",
     color: ärdengrön ? "white" : "black",
   };
-
+/*Funktions namn som inte beskriver var ngt gör.*/
             function ngtblirannorLunda(event) {
     setT2(event.target.value);
   }
@@ -42,7 +42,7 @@ function App() {
   
   /* Koden innehåller flera alerts och en prompt, detta är inte att rekommendera och stör väldigt mycket upplevelsen av appen, jag hade tagit bort dom om jag hade gjort om koden igen. */
   
-  
+  /*Hade bytt ut det här funktionsnamnet till ngt mer beskrivande, wooop förklara inte alls vad den gör. */
   function wooop() {
     alert("You added something");
             if (t2.trim() !== "") {
@@ -72,6 +72,7 @@ function App() {
   }
 
   return (
+    /* Finns flera knappar här som hade kunnat vara egna komponenter och gjort koden kortare. */
     <div
       style={gronteskont}
       className="flex flex-col items-center justify-center gap-4 min-h-screen p-8"

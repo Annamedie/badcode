@@ -4,6 +4,8 @@ console.log("välkommen till min app!")
 
 /* Här har vi en ganska stor app som gör flera olika saker med flera funktioner med flera olika knappar, jag hade brutit ut den i flera olika mindre komponenter.*/
 
+/* Har använt js istället för ts! SKulle hellre föredra att använda TS för hårdare typning */
+
 /* flera olika state med namn som inte förklarar vad de gör, jag hade namnget dem tydliga namn. Som visat vad deras uppgift är. */
 function App() {
   const [c, setC] = useState(0);
